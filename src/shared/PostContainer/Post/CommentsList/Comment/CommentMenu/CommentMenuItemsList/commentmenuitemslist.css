@@ -1,0 +1,22 @@
+.menuItemsList {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 0;
+}
+
+.menuItem:not(:last-child) {
+  margin-right: 27px;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+}
+
+.menuButton > svg + span {
+  margin-left: 6px;
+}

@@ -1,0 +1,6 @@
+.comment {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-top: 35px;
+}

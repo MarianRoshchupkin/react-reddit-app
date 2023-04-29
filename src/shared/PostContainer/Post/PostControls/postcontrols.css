@@ -1,0 +1,13 @@
+.controls {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+@media all and (min-width: 1024px) {
+  .controls {
+    order: 1;
+    flex: 0 0;
+    margin: 0 0 24px 0;
+  }
+}
